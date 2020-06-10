@@ -79,3 +79,5 @@ https://www.dynamsoft.com/Downloads/Dynamic-Barcode-Reader-Download.aspx
     sudo reboot
     ```
   
+## Blog
+[How to Build C/C++ Barcode Reader App on Raspberry Pi 4](https://www.dynamsoft.com/codepool/raspberry-pi-cpp-barcode-reader.html)
