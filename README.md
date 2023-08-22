@@ -1,17 +1,13 @@
 # C/C++ Barcode Reader for Raspberry Pi 4
 The sample demonstrates how to build a C/C++ barcode reader app on `Raspberry Pi 4`.
 
-## Hardware Components
+## Prerequisites
 - [Raspberry Pi 4](https://category.yahboom.net/products/raspberry-pi-4b) (4GB model)
 - [Raspberry Pi RGB Cooling HAT with adjustable fan and OLED display](https://category.yahboom.net/products/rgb-cooling-hat)
 - [Micro-HDMI to HDMI cable](https://category.yahboom.net/products/micro-hdmi-to-hdmi-cable)
 - [HDMI Female to HDMI Female Coupler Connector](https://www.amazon.com/dp/B06XR9PR5X/ref=vp_d_pb_TIER2_lp_B0789BGXXR_pd?_encoding=UTF8&pd_rd_i=B06XR9PR5X&pd_rd_w=HUIGS&pf_rd_p=b9c8a149-8025-4ee4-a81e-c3b28f174075&pf_rd_r=03c2b5a1-60ef-4151-a487-8da38dcb6eff&pd_rd_r=03c2b5a1-60ef-4151-a487-8da38dcb6eff&pd_rd_wg=Kf0ZM)
 - USB Webcam
-
-## Download Dynamsoft Raspberry Pi Barcode SDK
-https://www.dynamsoft.com/Downloads/Dynamic-Barcode-Reader-Download.aspx
-
-![Raspberry Pi Barcode SDK](https://www.dynamsoft.com/codepool/wp-content/uploads/2020/06/rpi-barcode-sdk.png)
+- [Dynamsoft C++ Barcode SDK for Linux ARM](https://www.dynamsoft.com/barcode-reader/downloads/)
 
 
 ## Install OpenCV
@@ -34,7 +30,7 @@ https://www.dynamsoft.com/Downloads/Dynamic-Barcode-Reader-Download.aspx
 
 
 ## Build and Run
-1. Get a [free trial license](https://www.dynamsoft.com/CustomerPortal/Portal/Triallicense.aspx) of [Dynamsoft Barcode Reader](https://www.dynamsoft.com/Products/Dynamic-Barcode-Reader.aspx) and update the following code in `BarcodeReader.cxx`:
+1. Get a [30-day trial license](https://www.dynamsoft.com/customer/license/trialLicense/?product=dbr&source=github) of [Dynamsoft Barcode Reader](https://www.dynamsoft.com/barcode-reader/overview/) and update the following code in `BarcodeReader.cxx`:
 
     ```cpp
     iRet = reader.InitLicense("LICENSE-KEY");
